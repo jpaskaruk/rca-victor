@@ -13,8 +13,11 @@ When I was at Tangent, I was a TD for the last two years with a strong focus on 
 The project is a conversion of an old RCA Victor radio into an internet streaming radio, with a few escape room-style additions.
 
 Basis of the new brains is a Raspberry Pi with a Hifiberry-style audio hat and three rotary encoders to manage the knobs:
+
 Left knob will mute/unmute (Pi will run all the time and act as a redundant pi-hole server) and control volume.
+
 Middle knob will be "tuning," which will crossfade into a static noise and then into the next "station". Demo here: https://www.youtube.com/watch?v=1zuO0uA6Jhw
+
 Right knob will control a FLux Capacitor, which in practical terms means a low-pass filter for year of release - as you dial back, it plays only older and older things.
 
 Also planned is a screen behind the tuning window which simulates a needle and does visual effects (ie. name of track/broadcast); this will also allow adding local radio stations' streams at their proper spot on the AM dial.
